@@ -3,11 +3,11 @@ var studrouter=express()
 var mysql=require('mysql');
 
 var connection=mysql.createConnection({
-    host:'localhost',
+    host:'192.168.43.137',
     user:'root',
-    password:'manager',
+    password:'root',
     database:'spj',
-    port:3306    
+    port:9999    
 })
 
 connection.connect();
